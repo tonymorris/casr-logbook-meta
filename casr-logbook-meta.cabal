@@ -34,12 +34,8 @@ library
   build-depends:
                     base < 5 && >= 4.8
                     , casr-logbook >= 0.1.3 && < 0.2
-                    -- , lucid >= 2.9 && < 3
-                    -- , lens >= 4.1 && < 5
-                    -- , digit >= 0.2.8 && < 3
-                    -- , time >= 1.5 && < 1.6
-                    -- , text >= 1.2 && < 1.3
-
+                    , lens >= 4.1 && < 5
+                    
   ghc-options:
                     -Wall
 
@@ -51,6 +47,26 @@ library
 
   exposed-modules:
                     Data.Aviation.Casr.Logbook.Meta
+                    Data.Aviation.Casr.Logbook.Meta.AircraftFlightExpense
+                    Data.Aviation.Casr.Logbook.Meta.AircraftFlightMeta
+                    Data.Aviation.Casr.Logbook.Meta.AircraftLandingExpense
+                    Data.Aviation.Casr.Logbook.Meta.AircraftUsageExpense
+                    Data.Aviation.Casr.Logbook.Meta.BriefingExpense
+                    Data.Aviation.Casr.Logbook.Meta.BriefingMeta
+                    Data.Aviation.Casr.Logbook.Meta.ExamExpense
+                    Data.Aviation.Casr.Logbook.Meta.ExamMeta
+                    Data.Aviation.Casr.Logbook.Meta.Image
+                    Data.Aviation.Casr.Logbook.Meta.ImageType
+                    Data.Aviation.Casr.Logbook.Meta.SimulatorFlightExpense
+                    Data.Aviation.Casr.Logbook.Meta.SimulatorFlightMeta
+                    Data.Aviation.Casr.Logbook.Meta.TrackLog
+                    Data.Aviation.Casr.Logbook.Meta.TrackLogs
+                    Data.Aviation.Casr.Logbook.Meta.TrackLogType
+                    Data.Aviation.Casr.Logbook.Meta.Video
+                    Data.Aviation.Casr.Logbook.Meta.VideoType
+                    Data.Aviation.Casr.Logbook.Meta.Visualisation
+
+
 
 test-suite doctests
   type:
