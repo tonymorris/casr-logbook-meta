@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.SimulatorFlightExpense(
   SimulatorFlightExpense(SimulatorFlightExpense)
+, HasSimulatorFlightExpense(..)
 ) where
 
 import Control.Lens(makeClassy)

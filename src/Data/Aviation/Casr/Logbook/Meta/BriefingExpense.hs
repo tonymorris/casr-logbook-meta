@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.BriefingExpense(
   BriefingExpense(BriefingExpense)
+, HasBriefingExpense(..)
 ) where
 
 import Control.Lens(makeClassy)

@@ -5,6 +5,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.SimulatorFlightMeta(
   SimulatorFlightMeta(SimulatorFlightMeta)
+, HasSimulatorFlightMeta(..)
 ) where
 
 import Control.Lens(makeClassy, makeWrapped)

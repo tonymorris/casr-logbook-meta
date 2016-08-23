@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.ImageType(
   ImageType(Jpg, Png, Gif)
+, AsImageType(..)
 ) where
 
 import Control.Lens(makeClassyPrisms)

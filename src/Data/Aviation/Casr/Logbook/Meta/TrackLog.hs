@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.TrackLog(
   TrackLog(TrackLog)
+, HasTrackLog(..)
 ) where
 
 import Control.Lens(makeClassy)

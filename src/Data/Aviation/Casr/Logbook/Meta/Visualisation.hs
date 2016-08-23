@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.Visualisation(
   Visualisation(Doarama)
+, HasVisualisation(..)
 ) where
 
 import Control.Lens(makeClassy)

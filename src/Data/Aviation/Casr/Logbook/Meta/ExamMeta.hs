@@ -5,6 +5,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.ExamMeta(
   ExamMeta(ExamMeta)
+, HasExamMeta(..)
 ) where
 
 import Control.Lens(makeClassy, makeWrapped)

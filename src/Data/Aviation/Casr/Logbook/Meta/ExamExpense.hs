@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.ExamExpense(
   ExamExpense(ExamExpense)
+, HasExamExpense(..)
 ) where
 
 import Control.Lens(makeClassy)

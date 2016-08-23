@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.VideoType(
   VideoType(YouTube, Vimeo, Bambuser)
+, AsVideoType(..)
 , linkVideoType
 , iframeVideoType
 ) where

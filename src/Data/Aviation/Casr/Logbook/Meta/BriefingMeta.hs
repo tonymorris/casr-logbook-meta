@@ -5,6 +5,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.BriefingMeta(
   BriefingMeta(BriefingMeta)
+, HasBriefingMeta(..)
 ) where
 
 import Control.Lens(makeClassy, makeWrapped)

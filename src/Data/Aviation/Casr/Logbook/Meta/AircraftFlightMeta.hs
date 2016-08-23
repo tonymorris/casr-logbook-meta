@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.AircraftFlightMeta(
   AircraftFlightMeta(AircraftFlightMeta)
+, HasAircraftFlightMeta(..)
 ) where
 
 import Control.Lens(makeClassy)

@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.Video(
   Video(Video)
+, HasVideo(..)
 ) where
 
 import Control.Lens(makeClassy)

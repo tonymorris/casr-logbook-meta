@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.AircraftFlightExpense(
   AircraftFlightExpense(ExpenseAircraftUsage, ExpenseAircraftLanding)
+, AsAircraftFlightExpense(..)
 ) where
 
 import Control.Lens(makeClassyPrisms)

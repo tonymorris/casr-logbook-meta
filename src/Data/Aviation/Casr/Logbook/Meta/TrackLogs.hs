@@ -5,6 +5,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.TrackLogs(
   TrackLogs(TrackLogs)
+, HasTrackLogs(..)
 ) where
 
 import Control.Lens(makeClassy, makeWrapped)

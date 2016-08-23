@@ -2,6 +2,7 @@
 
 module Data.Aviation.Casr.Logbook.Meta.Image(
   Image(Image)
+, HasImage(..)
 ) where
 
 import Control.Lens(makeClassy)
