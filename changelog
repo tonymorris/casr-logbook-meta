@@ -1,3 +1,7 @@
+0.0.3
+
+* Add `aircraftUsageCost`, `briefingCost`, `simulatorFlightCost`.
+
 0.0.2
 
 * Export classy lenses and prisms.

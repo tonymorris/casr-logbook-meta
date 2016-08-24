@@ -3,14 +3,18 @@
 module Data.Aviation.Casr.Logbook.Meta.AircraftUsageExpense(
   AircraftUsageExpense(AircraftUsageExpense)
 , HasAircraftUsageExpense(..)
+, aircraftUsageCost
 ) where
 
-import Control.Lens(makeClassy)
+import Control.Lens(makeClassy, (^.))
+import Data.Aviation.Casr.Logbook.AircraftFlight(HasAircraftFlight, daynight)
+import Data.Aviation.Casr.Logbook.TimeAmount(timeAmountBy10)
+import Data.Aviation.Casr.Logbook.DayNight(totalDayNight)
 import Data.Eq(Eq)
 import Data.Int(Int)
 import Data.Ord(Ord)
 import Data.String(String)
-import Prelude(Show)
+import Prelude(Show, (*))
 
 data AircraftUsageExpense =
   AircraftUsageExpense {
@@ -19,3 +23,12 @@ data AircraftUsageExpense =
   } deriving (Eq, Ord, Show)
 
 makeClassy ''AircraftUsageExpense
+
+aircraftUsageCost ::
+  HasAircraftFlight s =>
+  s
+  -> AircraftUsageExpense
+  -> Int
+aircraftUsageCost fl (AircraftUsageExpense perhour _) =
+  let z = totalDayNight (fl ^. daynight)
+  in  timeAmountBy10 z * perhour
