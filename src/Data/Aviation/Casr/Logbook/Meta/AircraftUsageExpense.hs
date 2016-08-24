@@ -7,9 +7,9 @@ module Data.Aviation.Casr.Logbook.Meta.AircraftUsageExpense(
 ) where
 
 import Control.Lens(makeClassy, (^.))
-import Data.Aviation.Casr.Logbook.AircraftFlight(HasAircraftFlight, daynight)
-import Data.Aviation.Casr.Logbook.TimeAmount(timeAmountBy10)
-import Data.Aviation.Casr.Logbook.DayNight(totalDayNight)
+import Data.Aviation.Casr.Logbook.Types.AircraftFlight(HasAircraftFlight, daynight)
+import Data.Aviation.Casr.Logbook.Types.TimeAmount(timeAmountBy10)
+import Data.Aviation.Casr.Logbook.Types.DayNight(totalDayNight)
 import Data.Eq(Eq)
 import Data.Int(Int)
 import Data.Ord(Ord)

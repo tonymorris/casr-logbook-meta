@@ -7,8 +7,8 @@ module Data.Aviation.Casr.Logbook.Meta.SimulatorFlightExpense(
 ) where
 
 import Control.Lens(makeClassy, (^.))
-import Data.Aviation.Casr.Logbook.SimulatorFlight(HasSimulatorFlight, instrumentsimulatorTime)
-import Data.Aviation.Casr.Logbook.TimeAmount(timeAmountBy10)
+import Data.Aviation.Casr.Logbook.Types.SimulatorFlight(HasSimulatorFlight, instrumentsimulatorTime)
+import Data.Aviation.Casr.Logbook.Types.TimeAmount(timeAmountBy10)
 import Data.Eq(Eq)
 import Data.Int(Int)
 import Data.Ord(Ord)
