@@ -12,6 +12,7 @@ import Data.Aviation.Casr.Logbook.Meta.ExamExpense as A
 import Data.Aviation.Casr.Logbook.Meta.ExamMeta as A
 import Data.Aviation.Casr.Logbook.Meta.Image as A
 import Data.Aviation.Casr.Logbook.Meta.ImageType as A
+import Data.Aviation.Casr.Logbook.Meta.Passenger as A
 import Data.Aviation.Casr.Logbook.Meta.SimulatorFlightExpense as A
 import Data.Aviation.Casr.Logbook.Meta.SimulatorFlightMeta as A
 import Data.Aviation.Casr.Logbook.Meta.TrackLog as A

@@ -1,5 +1,5 @@
 name:               casr-logbook-meta
-version:            0.0.4
+version:            0.0.5
 license:            OtherLicense
 license-file:       LICENSE
 author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
@@ -57,6 +57,7 @@ library
                     Data.Aviation.Casr.Logbook.Meta.ExamMeta
                     Data.Aviation.Casr.Logbook.Meta.Image
                     Data.Aviation.Casr.Logbook.Meta.ImageType
+                    Data.Aviation.Casr.Logbook.Meta.Passenger
                     Data.Aviation.Casr.Logbook.Meta.SimulatorFlightExpense
                     Data.Aviation.Casr.Logbook.Meta.SimulatorFlightMeta
                     Data.Aviation.Casr.Logbook.Meta.TrackLog
