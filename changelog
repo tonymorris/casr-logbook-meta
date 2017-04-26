@@ -1,3 +1,7 @@
+0.0.5
+
+* Implement Passenger data in flight meta.
+
 0.0.4
 
 * Use `casr-logbook-types` and not `casr-logbook`.

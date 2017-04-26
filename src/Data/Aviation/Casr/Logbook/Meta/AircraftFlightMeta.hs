@@ -8,6 +8,7 @@ module Data.Aviation.Casr.Logbook.Meta.AircraftFlightMeta(
 import Control.Lens(makeClassy)
 import Data.Aviation.Casr.Logbook.Meta.AircraftFlightExpense
 import Data.Aviation.Casr.Logbook.Meta.Image
+import Data.Aviation.Casr.Logbook.Meta.Passenger
 import Data.Aviation.Casr.Logbook.Meta.TrackLog
 import Data.Aviation.Casr.Logbook.Meta.Video
 import Data.Aviation.Casr.Logbook.Meta.Visualisation
@@ -22,6 +23,7 @@ data AircraftFlightMeta =
   , _images :: [Image]
   , _videos :: [Video]
   , _expenses :: [AircraftFlightExpense]
+  , _pax :: [Passenger]
   } deriving (Eq, Ord, Show)
 
 makeClassy '' AircraftFlightMeta
